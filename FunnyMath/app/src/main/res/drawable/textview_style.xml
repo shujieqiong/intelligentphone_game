@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+<!-- 利用shape去定义各种形状，soild填充，stroke描边（设置了描边的宽度，描边的颜色）radius设置角的弧度25，padding设置上下左右四个角度的间隔!-->
+    <solid android:color="#ef9c0b" />
+
+    <stroke
+        android:width="3dp"
+        android:color="#ef9c0b" />
+
+    <corners android:radius="25dp" />
+
+    <padding
+        android:bottom="10dp"
+        android:left="10dp"
+        android:right="10dp"
+        android:top="10dp" />
+
+</shape>
